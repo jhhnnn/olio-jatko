@@ -1,5 +1,8 @@
 Aloittaessa oli vaikeuksia saada annettuja tiedostoja toimimaan projektissa. 
-Kaikki annetut tiedostot on copy-pastettu uusiin tiedostoihin niitä muokaamatta, poislukien #includet.
+Kaikki annetut tiedostot on copy-pastettu uusiin tiedostoihin niitä muokaamatta.
+Includet oli pakko muuttaa.
+projekti loi labyrintti_heinonenJuho.exe tiedoston, jonka muutin Visual Studiossa luomaan labyrintti.exe 
+En tiedä tuleeko gitissä mukana nämä asetukset
 
 Omat tiedostot: 
 peli.h 
