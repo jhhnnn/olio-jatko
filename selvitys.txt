@@ -1,0 +1,35 @@
+Aloittaessa oli vaikeuksia saada annettuja tiedostoja toimimaan projektissa. 
+Kaikki annetut tiedostot on copy-pastettu uusiin tiedostoihin niitä muokaamatta, poislukien #includet.
+
+Omat tiedostot: 
+peli.h 
+peli.cpp
+
+pelirajapinnan toteutetut osat:
+- onkoAlustustilassa()
+- lisaaNaytto()
+- maaritaPelialueenkoko()
+- lisaaPelaaja()
+- lisaaPala()
+- lisaaEsine()
+- asetaPalanTyyppi()
+- alustusLopeta()
+- onkoPeliTilassa()
+- vaihdaVuoro()
+- haeVuorossa()
+- luoPeli()
+
+Osittain toteutettu:
+- komentoLiiku()
+	- liikuttaa pelaajaa
+	- ei tarkista virheiltä
+	- ei rajoita liikettä
+	- ei liikuta tietokonetta
+
+Ei toteutettu:
+- komentoTyonna()
+
+Sovellus alustaa tiedostosta, Tulostaa alustetun pelialueen, pelaajien tilanteen ja vuorossa olevan pelaajan nimen. 
+komentoLiiku muokkaa koordinaatin x tai y arvoa haluttuun suuntaan. 
+KomentoLiiku ei tee mitään tietokoneen liikkuessa. Käytännössä pelattava osuus on toteuttamatta.
+Alustaminen on testattu mukana olevilla .tst tiedostoilla.
